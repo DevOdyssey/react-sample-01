@@ -1,0 +1,29 @@
+{
+  "name": "react-sample-01",
+  "packageManager": "yarn@3.1.0",
+  "scripts": {
+    "start": "parcel src/index.html --port 54321 --open",
+    "build": "parcel build src/index.html --dist-dir www"
+  },
+  "devDependencies": {
+    "@types/react": "^17",
+    "@types/react-dom": "^17",
+    "@typescript-eslint/eslint-plugin": "^5.2.0",
+    "@typescript-eslint/parser": "^5.2.0",
+    "eslint": "^8.1.0",
+    "eslint-config-airbnb": "^18.2.1",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-airbnb-typescript": "^14.0.1",
+    "eslint-import-resolver-node": "^0.3.6",
+    "eslint-plugin-import": "^2.25.2",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.26.1",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "parcel": "^2.0.0",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
